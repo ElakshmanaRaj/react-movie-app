@@ -49,7 +49,7 @@ const Header = () => {
               name="search"
               autoComplete='off'
               className='form-control'
-              placeholder='Search'
+              placeholder='Search movies here'
               aria-label='Search'
             />
           </form>
