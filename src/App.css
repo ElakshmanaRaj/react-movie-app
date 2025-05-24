@@ -1,0 +1,46 @@
+
+body{
+    scroll-behavior: smooth;
+}
+
+nav{
+    background-color: #7965C1;
+    padding: 0.8rem !important;
+    z-index: 1000;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.text-primary{
+    color: #AA60C8 !important;
+}
+
+
+
+.card{
+    cursor: pointer;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 25rem;
+    object-fit: fill;
+}
+
+.text-overflow{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-overflow-1{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
