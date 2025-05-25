@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import React, {useEffect} from 'react';
+import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import '../../App.css';
 
 const Header = () => {
@@ -12,6 +12,16 @@ const Header = () => {
     e.target.reset();
     return navigate(`/search?q=${queryTerm}`);
   }
+
+  const location = useLocation();
+  
+  useEffect(() => {
+    const menu = document.getElementById('menu');
+    const bsCollapse = bootstrap.Collapse.getInstance(menu);
+    if (bsCollapse) {
+      bsCollapse.hide(); 
+    }
+  }, [location.pathname]);
 
 
 

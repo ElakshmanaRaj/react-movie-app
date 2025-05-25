@@ -7,7 +7,7 @@ import MovieDetails from './assets/pages/MovieDetails';
 import Search from './assets/pages/Search';
 import PageNotFound from './assets/pages/PageNotFound';
 import Footer from './assets/components/Footer';
-import { Scroll } from './assets/components/Scroll';
+import {Scroll} from './assets/components/Scroll';
 
 
 function App() {

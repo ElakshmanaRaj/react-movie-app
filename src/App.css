@@ -9,8 +9,16 @@ nav{
     z-index: 1000;
 }
 
+.navbar-brand{
+    font-weight: 600 !important;
+}
+
 .nav-link{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-link.active{
+    font-weight: 700 !important;
 }
 
 .text-primary{
