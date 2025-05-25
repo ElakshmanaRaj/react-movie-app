@@ -44,7 +44,7 @@ const MovieDetails = () => {
           <p className='mt-3'>{movie.overview}</p>
 
           {movie.genres ? (
-            <p className='d-flex gap-2'>
+            <p className='d-flex flex-wrap gap-2'>
               {movie.genres.map((genre) => (
                 <span key={genre.id} className='badge bg-danger'>
                   {genre.name} 
